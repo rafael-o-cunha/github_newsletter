@@ -2,7 +2,7 @@
 
 # Minha tese é que é possível criar uma newsletter utilizando GitHub Actions, integrando diferentes veículos de comunicação.
 
-# Setup
+# Setup ✅
 
 ```Shell
 mvn archetype:generate \
@@ -20,7 +20,7 @@ mvn archetype:generate \
 
 ## Testes
 
-### V0: 
+### V0: ✅
 
 - criar programa básico que de forma local envie e-mail
 - ao rodar o programa um email é disparado e recebido corretamente pelo destinatário.
@@ -40,7 +40,7 @@ ao fato de que usat smtp do gmail poderia ser complicado ou inviável, e não fo
 e funcionou.
 
 
-### V1:
+### V1: ✅
 
 - com o projeto no github criar um github action para executar o programa e realizar o disparo do email
 - ao executar o github action será realizado build e run do projeto fazendo-o enviar o email.
@@ -51,7 +51,7 @@ O processo para esta etapa foi simples, como já previa, um .yml faria um job ex
 saber se seria viável a saída de um email de dentro do ambiente.
 
 
-### V2:
+### V2: ✅
 
 - criar um novo veículo, Discord, fazer com que o programa envie e-mail e também a mensagem para o discord.
 - ao executar o programa uma mensagem de discord será enviada para um canal específico.
