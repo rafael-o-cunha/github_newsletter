@@ -1,6 +1,6 @@
 <p align="center">
   <h1>
-    Microproyecto: CRUD de Pets
+    GitHub NewsLetter 
   </h1>
 </p>
 
