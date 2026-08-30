@@ -2,7 +2,7 @@
 
 # Minha tese é que é possível criar uma newsletter utilizando GitHub Actions, integrando diferentes veículos de comunicação.
 
-# Setup ✅
+# Setup 
 
 ```Shell
 mvn archetype:generate \
