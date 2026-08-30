@@ -1,0 +1,23 @@
+services:
+  news_app:
+    build:
+      context: ..
+      dockerfile: infra/app/Dockerfile
+
+    container_name: news_app
+
+    user: "${UID}:${GID}"
+    working_dir: /app
+
+    env_file:
+      - ../infra/.env
+
+    volumes:
+      - ../app:/app
+
+    ports:
+      - "8080:8080"
+      - "5005:5005"
+
+    stdin_open: true
+    tty: true
