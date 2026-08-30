@@ -1,6 +1,6 @@
 
 
-# Minha tese é que é possível criar uma newsletter utilizando GitHub Actions, integrando diferentes veículos de comunicação.
+# Minha tese: É possível criar uma newsletter utilizando GitHub Actions, integrando diferentes veículos de comunicação.
 
 # Setup 
 
